@@ -14,10 +14,11 @@ public class Book {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "imageUrl")
+    @Column(name = "imageurl")
     private String imageUrl;
 
     public Book(){}
+
     public Book(int id, String name, String imageUrl) {
         this.id = id;
         this.name = name;
